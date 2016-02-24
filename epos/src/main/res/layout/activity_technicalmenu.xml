@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/identity_purple"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_title"
+            android:gravity="center_horizontal"
+            android:textColor="@color/identity_green"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="25dp"
+            />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="65dp"
+        >
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:id="@+id/network_config"
+            android:text="@string/network_config"
+            android:background="@drawable/button_selector"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/identity_white"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:id="@+id/initalize_department"
+            android:text="@string/initalize_department"
+            android:background="@drawable/button_selector"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/identity_white"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="35dp"
+        >
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:id="@+id/unlink_department"
+            android:text="@string/unlink_department"
+            android:background="@drawable/button_selector"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/identity_white"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:id="@+id/tests"
+            android:text="@string/tests"
+            android:background="@drawable/button_selector"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/identity_white"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="35dp"
+        >
+
+        <Button
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:id="@+id/logs"
+            android:text="@string/logs"
+            android:background="@drawable/button_selector"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/identity_white"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+</LinearLayout>

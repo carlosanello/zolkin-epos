@@ -1,0 +1,7 @@
+<resources>
+    <string name="zolkin_app_name">Zolkin Barcode Scanner</string>
+    <string name="app_name">Zolkin Barcode Scanner</string>
+    <string name="zolkin_button_ok">OK</string>
+    <string name="zolkin_msg_camera_framework_bug">Desculpe, a câmera Android encontrou um problema. Você pode precisar reiniciar o dispositivo.</string>
+    <string name="zolkin_msg_default_status">Coloque um código de barras dentro do retângulo do visor para digitalizá-lo.</string>
+</resources>

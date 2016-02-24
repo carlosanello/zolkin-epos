@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="identity_purple">#40235e</color>
+    <color name="identity_green">#bbc733</color>
+    <color name="identity_white">#ffffff</color>
+    <color name="identity_black">#0f0f0f</color>
+    <color name="identity_lightgrey">#c0c0c0c0</color>
+</resources>

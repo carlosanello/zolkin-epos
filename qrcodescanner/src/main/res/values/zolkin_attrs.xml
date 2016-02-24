@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="zolkin_view">
+        <attr name="zolkin_scanner_layout" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="zolkin_camera_preview">
+        <attr name="zolkin_framing_rect_width" format="dimension" />
+        <attr name="zolkin_framing_rect_height" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="zolkin_finder">
+        <attr name="zolkin_possible_result_points" format="color"/>
+        <attr name="zolkin_result_view" format="color"/>
+        <attr name="zolkin_viewfinder_laser" format="color"/>
+        <attr name="zolkin_viewfinder_mask" format="color"/>
+    </declare-styleable>
+
+</resources>

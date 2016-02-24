@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ePOS</string>
+    <string name="txtSenha">Informe a senha técnica</string>
+    <string name="hintSenha">SENHA TÉCNICA</string>
+    <string name="menu_title">Menu Técnico</string>
+    <string name="network_config">CONFIGURAÇÕES DE REDE</string>
+    <string name="initalize_department">INICIALIZAR ESTABELECIMENTO</string>
+    <string name="unlink_department">DESVINCULAR ESTABELECIMENTO</string>
+    <string name="tests">TESTES</string>
+    <string name="logs">LOGS VARS/RS</string>
+    <string name="initialize">INICIALIZAR SENHA TÉCNICA</string>
+    <string name="messege_technicalpassword">A senha técnica digitada não confere, por favor redigite a senha ou solicite a criação de uma nova senha técnica.</string>
+    <string name="technicaldialog_title">Erro de senha técnica</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancelar</string>
+    <string name="alerttechmenu">Não é possível, inicializar o estabelecimento, sem ter configurado sua rede previamente. Configure sua rede no item, CONFIGURAÇÃO DE REDE</string>
+    <string name="save">Salvar Configuração</string>
+    <string name="department_code">Codigo do Estabelecimento</string>
+    <string name="department_token">Token de instalação</string>
+    <string name="init_pos">Vincular POS</string>
+</resources>
